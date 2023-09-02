@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>神経衰弱</title>
+</head>
+
+<body>
+<!-- トランプを並べる -->
+  <div id="table" class="card-container"></div>
+
+  <!-- ゲームスタートボタン -->
+    <button id="startButton">ゲームスタート</button>
+    <div id="timer"></div>
+
+  <!-- 判定 -->
+    <div id="result">判定</div>
+    <div id="message"></div>
+
+  <!-- 一時停止ボタン -->
+  <div id="stop">
+    <button id="stopButton">一時停止</button>
+  </div>
+
+  <!-- 諦めるボタン -->
+  <div class="giveup">
+    <button id="giveUpButton">諦める</button>
+  </div>
+
+  <!-- Javascript -->
+  <script src="js/comon.js"></script>
+</body>
+</html>
